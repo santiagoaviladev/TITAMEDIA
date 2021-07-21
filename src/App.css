@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css?family=Monserrat');
+@import url('https://fonts.googleapis.com/css?family=Questrial');
+
+body, .top-menu-btn{
+  font-family: Questrial;
+}
+.App {
+  text-align: center;
+  width:90%;
+  margin-left: 5%;
+  
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+
+.App-header {
+  
+  min-height: 13vh;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  position: relative;
+  margin-bottom: 5px;
+  width:90%;
+  margin-left: 5%;
+ 
+  
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.App-footer
+{
+  
+  bottom:0;
+  width:100%;
+  
+  margin-top: 5%;
+  font-size:80%;
+  color:gainsboro
+}
+.sneak-name
+{
+  color:#FC758C;
+}
+.social
+{
+  margin-top: 1%;
+  margin-bottom: 2%;
+}
+.logo
+{
+  width:20%;
+ 
+}
+
+.logo img
+{
+  margin-top:5%;
+  position:relative;
+  top:10px;
+  z-index:-1;
+}
+.menu-container
+{
+  width: 80%;
+
+}
+.desktop-menu
+{
+  text-align: right;
+ 
+  width: 100%;
+  
+  
+}
+.portfolio-menu .menu-container .desktop-menu
+{
+  text-align: center;
+  width: 100%;
+  margin-bottom:2%;
+
+  margin-left:10%;
+}
+
+.main-banner
+{
+  background-color: #FC758C;
+  vertical-align: middle;
+  color:white;
+  padding:15%;
+}
+.main-banner-title
+{
+  font-size:6vh;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.main-banner-subtitle
+{
+  margin-top:2%;
+  width:50%;
+  margin-left: 25%;
+}
+.top-menu-btn{
+  text-transform: capitalize;
+  
+}
+.main-banner-cta
+{
+  margin-top:2%;
+  width:50%;
+ 
+  margin-left: 25%;
+}
+.top-menu-btn:hover,
+.top-menu-btn:active
+{
+  background-color: #FC758C;
+  color:white;
+  
+}
+
+.main-banner-cta-btn
+{
+  background-color:white;
+  padding: 5%!important;
+  color:#FC758C;
+  font-size:12px;
+  width: 200px!important;
+  
+}
+.pager-btn
+{
+  
+  background-color:#FC758C ;
+  color:white;
+  font-size:12px;
+  width: 200px!important;
+  padding: 5%!important;
+ 
+}
+.MuiButton-root:hover,
+.MuiButtonBase-root:hover,
+.MuiButton-root:active,
+.MuiButtonBase-root:active
+{
+  background-color: #FC758C!important;
+}
+
+
+
+.result-container
+{
+  margin-left: 1%;
+  margin-top:1%;
+  width: 30%;
+ 
+}
+.portfolio-content img 
+{
+ 
+  width:100%;
+  
+  
+}
+
+.grid-view, .list-view
+{
+  cursor: hand;
+  cursor:pointer
+}
+
+.grid-menu
+{
+  margin-top:2%;
+  margin-bottom: 2%;
+  display: flex;
+  flex-direction: row;
+  width:10%;
+  
+  margin-left: 45%;
+}
+
+.grid-view
+{
+  width:50%;
+ 
+}
+.list-view
+{
+  width:50%;
+
+}
+.grid-btn
+{
+  
+  width:20px;
+  height: 20px;
+  display:inline-block;
+  background-color: #FC758C!important ;
+  margin:1%
+}
+
+.list-btn
+{
+  
+  width:40px;
+  height: 20px;
+  display:inline-block;
+  background-color: #FC758C!important ;
+  margin:1%
+}
+.mobile-menu
+{
+  display: none;
+}
+@media screen and (max-width:768px) {
+
+  .grid-menu
+  {
+
+  width:15%;
+  margin-left: 42%;
+
+}
+  
+}
+
+@media screen and (max-width:425px) {
+
+  .mobile-menu
+  {
+    display:block;
+    margin-left: 200px;
+  }  
+
+  .desktop-menu,  .portfolio-menu .menu-container .mobile-menu{
+    display: none;
+  }
+ 
+
+  .portfolio-menu .menu-container .desktop-menu
+  {
+    display:block;
+  }
+
+  .main-banner-subtitle
+  {
+    font-size:80%;
+    width:100%;
+    margin-left: 0;
+  }
+
+  .main-banner-cta-btn
+  {
+    margin-left: -40%;
+  }
+  .grid-menu{
+    width: 30%;
+    margin-left: 35%;
+  }
+}
+
+
+@media screen and (max-width:320px) {
+
+  .mobile-menu
+  {
+    margin-left: 150px;
+  }
+
+  .main-banner-subtitle
+  {
+    font-size: 60%;
+  }
+  .main-banner-cta-btn
+  {
+    margin-left: -50%;
+  }
+}
